@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "com.example.application.proto";
+option java_multiple_files = true;
+
+message UserData {
+    string email = 1;
+    string firstName = 2;
+    string gender = 3;
+    int32 id = 4;
+    string image = 5;
+    string lastName = 6;
+    string username = 7;
+    string accessToken = 8;
+    string refreshToken = 9;
+    int64 timestamp = 10;
+
+  // NEXT AVAILABLE ID: 11
+}

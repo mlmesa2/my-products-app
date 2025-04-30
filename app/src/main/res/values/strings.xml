@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My products</string>
+    <string name="hide_password">Hide password</string>
+    <string name="show_password">Show password</string>
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="user">User</string>
+    <string name="try_again">Try again</string>
 </resources>
