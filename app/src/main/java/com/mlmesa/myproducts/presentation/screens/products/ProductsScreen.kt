@@ -44,7 +44,6 @@ fun ProductsRoute(
     ProductsScreen(
         modifier = modifier,
         uiState = uiState.value,
-        onProductClick = onProductClick,
         onRetry = viewModel::fetchProducts
     )
 }
@@ -54,7 +53,6 @@ fun ProductsRoute(
 fun ProductsScreen(
     modifier: Modifier = Modifier,
     uiState: ProductsState,
-    onProductClick: (Int) -> Unit,
     onRetry: () -> Unit
 ) {
     var showDialog by remember { mutableStateOf<ProductDomain?>(null) }
